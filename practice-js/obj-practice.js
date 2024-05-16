@@ -1,3 +1,14 @@
+let ns = [5,3,7,11,8,9,3,6];
+
+// プロI で習った for文の構文
+for (let i=0; i<ns.length; i=i+1) {
+    console.log(ns[i]);
+}
+
+// for-of 構文
+for (let n of ns) {
+    console.log(n);
+}
 //////////////// ここは書き換えてはいけない！ 
 
 let campus = {
@@ -15,4 +26,10 @@ let gakka = [
 ];
 
 //////////////// ここから下にプログラムを書きたそう!
+for(let n of campus){
+	console.log(n);
+}
+for (let n of gakka){
+	console.log(n);
+}
 
