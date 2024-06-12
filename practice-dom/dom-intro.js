@@ -49,3 +49,8 @@ div.insertAdjacentElement('beforeend', beeLink);	// a要素を div要素の中�
 let w = document.querySelector('li#whale');			// li#whale 要素を検索
 w.remove();											// 要素を削除
 
+let x = document.querySelector('p#strawberry');
+let y =document.createElement('Strong');
+y;
+y.textContent = '大福';
+x.insertAdjacentElement('beforeend',y); 

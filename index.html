@@ -9,36 +9,116 @@
     <h1>「Webコンテンツ作成」の成果</h1>
 
     <section>
-      <article>
+      
         <h2>本テーマについて</h2>
-        <p>先行する情報工学の専門科目の基礎知識を応用して実践的な能力を修得することが目的</p>
-      </article>
+        <p>先行する情報工学の専門科目の基礎知識を応用して実践的な能力を修得することが目的です。HTML、CSS、JAvascriptを用いたWebページ作成ができることが到達目標です。</p>
+     
 
       <article>
         <h2>プロジェクト課題について</h2>
+        <div class="document">
+          <p>
+            ユーザーが都市名を選択することによってその都市のidを取得するようにした。
+            取得したidでURLにアクセスして欲しいデータを出力するようにする。
+            文章はHTMLよりもJavaScriptをメインで書いた。
+            出力される文章やプルダウンメニューの字が小さく、場所も見ずらいためCSSをメインに
+            BOXを作ったりフォントを大きくしたりして工夫した。
+            背景の色は題が世界の天気のため青っぽい色にして、BOXは太陽をイメージして
+            オレンジを使った。
+          </p>
+        </div>
         <p>プロジェクト課題で作成したページ:<a href="https://g384572023.github.io/medialabo/project.html">project.html</a></p>
       </article>
 
       <article>
         <h2>数当てゲーム</h2>
+        <div class="document">
+        <p>ユーザは答えを1〜10の中から予想して，数を最大で3回入力できる。</p>
+        <p>ユーザの入力が外れた場合は，入力よりも答えが大きいか小さいか表示する。</p>
+        <p>3回以内に答えの数を当てればユーザの勝ち，そうでなければ負け</p>
+        <p>consol.log()を使いデバッグ用の答えを表示できるようにした</p>
+        <p>答えより予想が大きかったら「答えは小さい」、小さかったら「答えは大きい」とヒントを出るようにした</p>
+        <p>正解したり3回目も誤答したら答えを出して、それ以降ゲームを終了させるようにした</p>
+        </div>
         <p>数当てゲームのページ:<a href="https://g384572023.github.io/medialabo/kazuate.html">kazuate.html</a></p>
       </article>
 
       <article>
         <h2>各授業回の学習事項</h2>
-        <p>第1回 WWW と HTML</p>
+        <h3>第1回 WWW と HTML</h3>
+        <div class="document">
+          <p>HTMLの基礎を学んだ。まずHTMLに要素というものがあることを知った。(ブロック要素,インライン要素,空要素)次に属性というものがあることを知った。
+          HTMLの構造を知った。その中の「お約束」や文書全体を意味する要素などを知った。</p>
+        </div>
         <p>演習の成果<a href="https://g384572023.github.io/medialabo/practice-html/elements.html"title="演習1-3"
           target="_blank">演習1-4:HTMLのさまざまな要素 </a></p>
-        <p>第2回 CSS による Web ページの装飾</p>
+        <h3>第2回 CSS による Web ページの装飾</h3>
+        <div class="document">
+          <p>HTMLを装飾するCSSを学んだ。CSSは文字の大きさや色、フォントを変えたり背景の色や箱を作ったりしてHTMLを見やすくする。
+            また、リンクををいじったり文字の向きを変えられることを学んだ。FirefoxでWeb開発ツールを開いてデバックする方法を学んだ。
+          </p>
+        </div>
         <p>演習の成果<a href="https://g384572023.github.io/medialabo/practice-css/browser-intro.html"title="演習1-3"
           target="_blank">演習2-3: ウェブブラウザ説明ページの装飾 </a></p>
-        <p>第3回 JavaScript の基本</p>
-        <p><a href="https://g384572023.github.io/medialabo/practice-js/obj-practice.html">練習3-6: オブジェクトの参照</a></p>
-        <p>第4回 DOM と JavaScript</p>
-        <p><a href="https://g384572023.github.io/medialabo/practice-dom/dom-exercise.html">DOM プログラミング演習</a></p>
-        <p>第5回 イベント処理</p>
-        <p><a href="https://g384572023.github.io/medialabo/practice-event/event-list.html">練習5-3: イベントを選択する</a></p>
+        <h3>第3回 JavaScript の基本</h3>
+        <div class="document">
+          <p>JavaScriptを学んだ。コンソールに書き、そこからJavaScriptに書く方法学んだ。Javaとは違い変数は全てletで表せることや、
+            比較や型変換が違うことを学んだ。間違えた場合、エラーではなくundefinedと表示されることを学んだ。
+          </p>
+        </div>
+        <p>演習の成果<a href="https://g384572023.github.io/medialabo/practice-js/obj-practice.html">練習3-6: オブジェクトの参照</a></p>
+        <h3>第4回 DOM と JavaScript</h3>
+        <div class="document">
+          <p>DOMを学んだ。要素を検索することを学んだ。1つをを検索したり複数を検索することができる。textの変更、要素の追加や削除を学んだ。
+            また、DOMのプログラミングは間違いが起こりやすいため、第3回でやったようにコンソールを使って少しずつプログラムを進めることが大切だと学んだ。
+          </p>
+        </div>
+        <p>演習の成果<a href="https://g384572023.github.io/medialabo/practice-dom/dom-exercise.html">DOM プログラミング演習</a></p>
+        <h3>第5回 イベント処理</h3>
+        <div class="document">
+          <p>
+            イベントを学んだ。ユーザーがある要素の上をマウスでクリックしたり，ある要素の上にカーソルを持ってくる等イベントが起こることでプログラムが実行することを学んだ。
+            クリックやキーを触る以外にもtextの入力やラジオボタン、チェックボックスがある。また、typeをemailやurlにすることで
+            ソフトウェアキーボードの配置をいじることができる。
+          </p>
+        </div>
+        <p>演習の成果<a href="https://g384572023.github.io/medialabo/practice-event/event-list.html">練習5-3: イベントを選択する</a></p>
 
+    </article>
+    <article>
+      <h2>工夫点</h2>
+      <div class="document">
+        <p>
+          projectのレイアウトを工夫した。見やすくするために検索結果をBOXに入れて出すようにした。
+          しかし、検索前はBOXを見えない状態にしたかったがやり方がよく分からなかったため断念した。
+        </p>
+      </div>
+      <h2>苦心点</h2>
+      <div class="document">
+        <p>
+          HTMLなどWebページを触るのが初めてだったため、着いていくことで精一杯だった。説明を受けている時理解しているつもりでも、演習や課題の時分からなくなってまず自分がどこを理解していないのかを見つけることが大変だった。
+          そのため少し躓いてしまったとき、そこから追いつくのが大変だった。
+          数当てゲームでは正解していても'正解です。'の文が出てこずif文がどう違うのか探して直すのが大変だった。
+          デザインのオリジナリティが難しかった。友達と相談しながらやっていたらページが友達と似たようなものになってしまい、自分だけのページを考えるのが難しかった。
+        </p>
+      </div>
+      <h2>強調点</h2>
+      <div class="document">
+        <p>
+          indexのレイアウトでグリッドを使うよりもフレックスを用いる方が良いと判断してフレックスを使った。
+          自分の背景色が寒色なのでlinkが見づらいため色を変更した。
+        </p>
+      </div>
+      <h2>感想</h2>
+      <div class="document">
+        <p>
+          最初の授業では自分でWebページを作れることにワクワクしていたが、回数を重ねるごとに自分が置いて行かれているのが実感して辛かった。
+          ページが完成に近づいていく度面白さや達成感を感じられて楽しかった。この授業を受けたことで自分がよく使っていたWebページがどのぐらいの完成度なのか
+          が理解でき、このページ作った人ってすごいんだなって感じられて感動した。すごく楽しい授業だったのでプライベートでページを作って見たいと思えた。
+        </p>
+      </div>
+      <p>数当てゲームのif文を考える時に参考にしたページ</p>
+      <p><a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Boolean">https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Boolean</a></p>
     </article>
   </body>
 </section>

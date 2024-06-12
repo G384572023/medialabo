@@ -1,24 +1,32 @@
-<head><script src="gourmet.js" defer></script></head>
-<ul>
-    <li>グルメ情報</li>
-    <ul>
-        <li>検索結果1件目</li>
-    <ul>
-        <li><name>店名:ハンバーグレストランBOSTON 四天王寺店 </name></li>
-        <li><access>アクセス:バス停　天王寺西門前の正面</access></li>
-        <li><address>住所:大阪府大阪市天王寺区逢坂2-1-5</address></li>
-        <li><budget.name>予算:1300〜2000円</budget.name></li>
-        <li><open>営業時間: 月〜日、祝日、祝前日: 11時30分〜14時15分, 17時30分〜22時00分</open></li>
-    </ul>
-</ul>
-    <ul>
-        <li>検索結果2件目</li>
-    <ul>
-        <li><name>店名：ハンバーグ＆ステーキの店 あかべこ</name></li>
-        <li><access>アクセス: 若松駅前バスターミナルから古坂下駅に行き、そこから徒歩4分</access></li>
-        <li><address>住所: 福島県河沼郡会津坂下町上口６０６−１</address></li>
-        <li><budget.name>予算:1000〜3000円</budget.name></li>
-        <li><open>月〜水, 金〜日: 11:00 - 23:00 定休日: 木</open></li>
-</ul>
-</ul>
-</ul>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="project.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="weather.js" defer></script>
+    <title>天気予報</title>
+    
+</head>
+<body>
+    <h1>世界の天気</h1>
+    <select name="selectBox" id="selectBox">
+        <option value="">都市名を選択してください</option>
+        <option value="360630">カイロ</option>
+        <option value="524901">モスクワ</option>
+        <option value="993800">ヨハネスブルク</option>
+        <option value="1816670">北京</option>
+        <option value="1850147">東京</option>
+        <option value="1880252">シンガポール</option>
+        <option value="2147714">シドニー</option>
+        <option value="2643743">ロンドン</option>
+        <option value="2968815">パリ</option>
+        <option value="3451189">リオデジャネイロ</option>
+        <option value="5128581">ニューヨーク</option>
+        <option value="5368361">ロサンゼルス</option>
+
+    </select>
+    <button id="btn">送信</button>
+    
+<div id="result"></div>
+
+</body>
